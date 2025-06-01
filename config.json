@@ -1,0 +1,30 @@
+{
+  "sources": [
+    {
+      "name": "BBC News",
+      "rssUrl": "http://feeds.bbci.co.uk/news/world/rss.xml",
+      "maxArticles": 5
+    },
+    {
+      "name": "Reuters",
+      "rssUrl": "http://feeds.reuters.com/reuters/topNews",
+      "maxArticles": 5
+    },
+    {
+      "name": "The Guardian",
+      "rssUrl": "https://www.theguardian.com/world/rss",
+      "maxArticles": 5
+    },
+    {
+      "name": "TechCrunch",
+      "rssUrl": "https://techcrunch.com/feed/",
+      "maxArticles": 5
+    }
+  ],
+  "llm": {
+    "type": "openai",
+    "model": "gpt-3.5-turbo"
+  },
+  "outputDir": "./output",
+  "cacheDir": "./cache"
+} 
